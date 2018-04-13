@@ -1,0 +1,12 @@
+@import "variables"
+@import "mixins"
+
+.main
+  padding: 20px
+  +e(generate-report)
+    margin-bottom: 50px
+  +e(important-values)
+    // move here layout styles from important-values.sass
+  +e(managers)
+    margin-bottom: 20px
+

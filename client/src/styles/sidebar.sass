@@ -1,0 +1,67 @@
+@import "mixins"
+@import "variables"
+
+.sidebar
+  background: $darkblue
+  height: 100vh
+  width: 92px
+  display: flex
+  flex-flow: column nowrap
+  align-items: center
+  +e(box)
+    display: flex
+    flex-flow: column
+    align-items: center
+    position: relative
+    width: 100%
+    color: $darkgreen
+    padding: 22px 0
+    &:hover
+      color: $darkblue
+      background: #fff
+    &:active
+      color: $darkblue
+      background: #fff
+    +m(client)
+      &:after
+        content: '⌄'
+        position: absolute
+        bottom: 20px
+        right: 15px
+        font-size: 1.6em
+        font-weight: 900
+        color: #fff
+      &:hover
+        color: inherit
+        background: $darkblue
+      &:active
+        color: inherit
+        background: $darkblue
+    +m(dashboard)
+    +m(reports)
+    +m(settings)
+    +m(logout)
+      margin-top: auto
+      &:hover
+        color: $darkred
+        background: $darkblue
+      &:active
+        color: $darkred
+        background: $darkblue
+  +e(client-image)
+    border-radius: 50%
+  +e(icon)
+
+  +e(option)
+  +e(notification)
+    color: white
+    display: flex
+    justify-content: center
+    align-items: center
+    background: $lightblue
+    border-radius: 50%
+    +size(23px, 23px)
+    position: absolute
+    right: 10px
+
+

@@ -1,0 +1,29 @@
+@import 'variables'
+@import 'mixins'
+
+.nav-dash
+  display: flex
+  background: $topbackground
+  +e(path)
+    display: flex
+    justify-content: center
+    align-items: center
+    max-width: 220px
+    width: 100%
+    &:active
+      background: $white
+    &:hover
+      background: $white
+  +e(icon)
+    margin-right: 10px
+  +e(link)
+    text-decoration: none
+    color: $grey
+    &:hover
+      color: $darkblue
+    &:active
+      color: $darkblue
+    &:focus
+      outline: 3px solid $focus
+
+

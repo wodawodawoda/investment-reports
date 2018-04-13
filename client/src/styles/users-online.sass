@@ -1,0 +1,22 @@
+@import "variables"
+@import "mixins"
+
+.users-online
+  background: $white
+  border-radius: 23px
+  min-width: 146px
+  min-height: 34px
+  display: flex
+  justify-content: space-around
+  align-items: center
+  +e(notification)
+    display: flex
+    justify-content: center
+    align-items: center
+    color: $white
+    background: $lightblue
+    border-radius: 50%
+    +size(23px, 23px)
+    font-size: 11px
+  +e(text)
+    position: relative

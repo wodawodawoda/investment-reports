@@ -1,0 +1,14 @@
+@import "variables"
+@import "mixins"
+
+.topbar
+  display: flex
+  align-items: baseline
+  padding: 22px
+  background: $topbackground
+  +e(users-online)
+    +size(146px, 34px)
+  +e(date)
+    font-size: 2.2em
+    margin-left: auto
+  +e(search)

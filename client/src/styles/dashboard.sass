@@ -1,0 +1,9 @@
+@import "variables"
+@import "mixins"
+
+.dashboard
+  grid-area: 2/2/2/2
+  display: grid
+  grid-template-rows: 50px auto
+  +e(nav)
+  +e(main)
