@@ -10,6 +10,10 @@
   width: $width
   height: $height
 
+=maxsize($width, $height)
+  max-width: $width
+  max-height: $height
+
 =media($point)
   @if $point == medium
     @media (min-width: 767px)

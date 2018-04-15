@@ -8,7 +8,7 @@ const DashboardMain = () => {
     <div className="dashboard__main main">
       <GenerateReport />
       <ImportantValues />
-      <Managers />
+      <Managers parent="main" number={5}/>
     </div>
   )
 }

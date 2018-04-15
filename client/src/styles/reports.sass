@@ -1,0 +1,59 @@
+@import "variables"
+@import "mixins"
+
+.reports
+  grid-area: 2/2/2/2
+  display: grid
+  grid-template-rows: 145px 1fr
+  padding: 25px
+  +e(managers)
+    grid-area: 1/1/2/2
+    overflow-x: auto
+    flex-flow: row nowrap
+  +e(report-table)
+    grid-area: 2/1/3/2
+
+.reports .manager
+  font-size: 0.8rem
+  margin-bottom: 20px
+  transition: 1s
+  +e(content)
+    width: 100px
+  +e(image)
+    max-width: 58px
+    margin-bottom: 11px
+    &:active
+      max-width: 100px
+  +e(name)
+    font-size: 1em
+    font-weight: 500
+  +e(branch)
+    font-weight: 300
+  +e(hover)
+    display: none
+  +e(notification)
+    display: none
+    // To js add css class on click
+    &:active
+      font-size: 1rem
+      max-width: 150px
+
+
+// Temporary styles TODO: create table.sass or similar
+.report-table__table
+  width: 100%
+  max-width: 800px
+  div
+    display: table-cell
+    width: auto
+  tbody
+    text-align: center
+
+
+
+@media (max-width: 600px)
+  .reports
+    +e(managers)
+      .manager
+        //max-width: 100%
+        +e(content)

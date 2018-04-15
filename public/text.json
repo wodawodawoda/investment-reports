@@ -1,0 +1,2122 @@
+{
+  "!ref": "A1:D123",
+  "A1": {
+    "t": "s",
+    "v": "Aktywa",
+    "r": "<t xml:space=\"preserve\">Aktywa</t>",
+    "h": "Aktywa",
+    "w": "Aktywa"
+  },
+  "B1": {
+    "t": "n",
+    "v": 2014,
+    "w": "2014"
+  },
+  "C1": {
+    "t": "n",
+    "v": 2014,
+    "w": "2014"
+  },
+  "D1": {
+    "t": "n",
+    "v": 2014,
+    "w": "2014"
+  },
+  "A2": {
+    "t": "s",
+    "v": "A. Aktywa trwałe",
+    "r": "<t xml:space=\"preserve\">A. Aktywa trwałe</t>",
+    "h": "A. Aktywa trwałe",
+    "w": "A. Aktywa trwałe"
+  },
+  "B2": {
+    "t": "n",
+    "v": 213156,
+    "f": "B3+B8+B17+B20+B34",
+    "w": "213,156.00"
+  },
+  "C2": {
+    "t": "n",
+    "v": 213156,
+    "f": "C3+C8+C17+C20+C34",
+    "w": "213,156.00"
+  },
+  "D2": {
+    "t": "n",
+    "v": 213156,
+    "f": "D3+D8+D17+D20+D34",
+    "w": "213,156.00"
+  },
+  "A3": {
+    "t": "s",
+    "v": "I. Wartości niematerialne i prawne",
+    "r": "<t xml:space=\"preserve\">I. Wartości niematerialne i prawne</t>",
+    "h": "I. Wartości niematerialne i prawne",
+    "w": "I. Wartości niematerialne i prawne"
+  },
+  "B3": {
+    "t": "n",
+    "v": 2774,
+    "f": "SUM(B4:B7)",
+    "w": "2,774.00"
+  },
+  "C3": {
+    "t": "n",
+    "v": 2774,
+    "f": "SUM(C4:C7)",
+    "w": "2,774.00"
+  },
+  "D3": {
+    "t": "n",
+    "v": 2774,
+    "f": "SUM(D4:D7)",
+    "w": "2,774.00"
+  },
+  "A4": {
+    "t": "s",
+    "v": "Koszty zakończonych prac rozwojowych",
+    "r": "<t xml:space=\"preserve\">Koszty zakończonych prac rozwojowych</t>",
+    "h": "Koszty zakończonych prac rozwojowych",
+    "w": "Koszty zakończonych prac rozwojowych"
+  },
+  "B4": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "C4": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "D4": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "A5": {
+    "t": "s",
+    "v": "Wartość firmy",
+    "r": "<t xml:space=\"preserve\">Wartość firmy</t>",
+    "h": "Wartość firmy",
+    "w": "Wartość firmy"
+  },
+  "B5": {
+    "t": "n",
+    "v": 2008,
+    "w": "2,008.00"
+  },
+  "C5": {
+    "t": "n",
+    "v": 2008,
+    "w": "2,008.00"
+  },
+  "D5": {
+    "t": "n",
+    "v": 2008,
+    "w": "2,008.00"
+  },
+  "A6": {
+    "t": "s",
+    "v": "Inne wartości niematerialne i prawne",
+    "r": "<t xml:space=\"preserve\">Inne wartości niematerialne i prawne</t>",
+    "h": "Inne wartości niematerialne i prawne",
+    "w": "Inne wartości niematerialne i prawne"
+  },
+  "B6": {
+    "t": "n",
+    "v": 713,
+    "f": "766-53",
+    "w": "713.00"
+  },
+  "C6": {
+    "t": "n",
+    "v": 713,
+    "f": "766-53",
+    "w": "713.00"
+  },
+  "D6": {
+    "t": "n",
+    "v": 713,
+    "f": "766-53",
+    "w": "713.00"
+  },
+  "A7": {
+    "t": "s",
+    "v": "Zaliczki na wartości niematerialne i prawne (WN w budowie)",
+    "r": "<t xml:space=\"preserve\">Zaliczki na wartości niematerialne i prawne (WN w budowie)</t>",
+    "h": "Zaliczki na wartości niematerialne i prawne (WN w budowie)",
+    "w": "Zaliczki na wartości niematerialne i prawne (WN w budowie)"
+  },
+  "B7": {
+    "t": "n",
+    "v": 53,
+    "w": "53.00"
+  },
+  "C7": {
+    "t": "n",
+    "v": 53,
+    "w": "53.00"
+  },
+  "D7": {
+    "t": "n",
+    "v": 53,
+    "w": "53.00"
+  },
+  "A8": {
+    "t": "s",
+    "v": "II. Rzeczowe aktywa trwałe",
+    "r": "<t xml:space=\"preserve\">II. Rzeczowe aktywa trwałe</t>",
+    "h": "II. Rzeczowe aktywa trwałe",
+    "w": "II. Rzeczowe aktywa trwałe"
+  },
+  "B8": {
+    "t": "n",
+    "v": 207564,
+    "f": "B9+B15+B16",
+    "w": "207,564.00"
+  },
+  "C8": {
+    "t": "n",
+    "v": 207564,
+    "f": "C9+C15+C16",
+    "w": "207,564.00"
+  },
+  "D8": {
+    "t": "n",
+    "v": 207564,
+    "f": "D9+D15+D16",
+    "w": "207,564.00"
+  },
+  "A9": {
+    "t": "s",
+    "v": "Środki trwałe",
+    "r": "<t xml:space=\"preserve\">Środki trwałe</t>",
+    "h": "Środki trwałe",
+    "w": "Środki trwałe"
+  },
+  "B9": {
+    "t": "n",
+    "v": 194539,
+    "f": "SUM(B10:B14)",
+    "w": "194,539.00"
+  },
+  "C9": {
+    "t": "n",
+    "v": 194539,
+    "f": "SUM(C10:C14)",
+    "w": "194,539.00"
+  },
+  "D9": {
+    "t": "n",
+    "v": 194539,
+    "f": "SUM(D10:D14)",
+    "w": "194,539.00"
+  },
+  "A10": {
+    "t": "s",
+    "v": "grunty (w tym prawo użytkowania wieczystego gruntu) łącznie z budynkami i budowlami",
+    "r": "<t xml:space=\"preserve\">grunty (w tym prawo użytkowania wieczystego gruntu) łącznie z budynkami i budowlami</t>",
+    "h": "grunty (w tym prawo użytkowania wieczystego gruntu) łącznie z budynkami i budowlami",
+    "w": "grunty (w tym prawo użytkowania wieczystego gruntu) łącznie z budynkami i budowlami"
+  },
+  "B10": {
+    "t": "n",
+    "v": 79554,
+    "w": "79,554.00"
+  },
+  "C10": {
+    "t": "n",
+    "v": 79554,
+    "w": "79,554.00"
+  },
+  "D10": {
+    "t": "n",
+    "v": 79554,
+    "w": "79,554.00"
+  },
+  "A11": {
+    "t": "s",
+    "v": "budynki, lokale i obiekty inżynierii lądowej i wodnej",
+    "r": "<t xml:space=\"preserve\">budynki, lokale i obiekty inżynierii lądowej i wodnej</t>",
+    "h": "budynki, lokale i obiekty inżynierii lądowej i wodnej",
+    "w": "budynki, lokale i obiekty inżynierii lądowej i wodnej"
+  },
+  "B11": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "C11": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "D11": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "A12": {
+    "t": "s",
+    "v": "urządzenia techniczne i maszyny",
+    "r": "<t xml:space=\"preserve\">urządzenia techniczne i maszyny</t>",
+    "h": "urządzenia techniczne i maszyny",
+    "w": "urządzenia techniczne i maszyny"
+  },
+  "B12": {
+    "t": "n",
+    "v": 114985,
+    "w": "114,985.00"
+  },
+  "C12": {
+    "t": "n",
+    "v": 114985,
+    "w": "114,985.00"
+  },
+  "D12": {
+    "t": "n",
+    "v": 114985,
+    "w": "114,985.00"
+  },
+  "A13": {
+    "t": "s",
+    "v": "środki transportu",
+    "r": "<t xml:space=\"preserve\">środki transportu</t>",
+    "h": "środki transportu",
+    "w": "środki transportu"
+  },
+  "B13": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "C13": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "D13": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "A14": {
+    "t": "s",
+    "v": "inne środki trwałe",
+    "r": "<t xml:space=\"preserve\">inne środki trwałe</t>",
+    "h": "inne środki trwałe",
+    "w": "inne środki trwałe"
+  },
+  "B14": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "C14": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "D14": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "A15": {
+    "t": "s",
+    "v": "Środki trwałe w budowie",
+    "r": "<t xml:space=\"preserve\">Środki trwałe w budowie</t>",
+    "h": "Środki trwałe w budowie",
+    "w": "Środki trwałe w budowie"
+  },
+  "B15": {
+    "t": "n",
+    "v": 2566,
+    "w": "2,566.00"
+  },
+  "C15": {
+    "t": "n",
+    "v": 2566,
+    "w": "2,566.00"
+  },
+  "D15": {
+    "t": "n",
+    "v": 2566,
+    "w": "2,566.00"
+  },
+  "A16": {
+    "t": "s",
+    "v": "Zaliczki na środki trwałe w budowie",
+    "r": "<t xml:space=\"preserve\">Zaliczki na środki trwałe w budowie</t>",
+    "h": "Zaliczki na środki trwałe w budowie",
+    "w": "Zaliczki na środki trwałe w budowie"
+  },
+  "B16": {
+    "t": "n",
+    "v": 10459,
+    "w": "10,459.00"
+  },
+  "C16": {
+    "t": "n",
+    "v": 10459,
+    "w": "10,459.00"
+  },
+  "D16": {
+    "t": "n",
+    "v": 10459,
+    "w": "10,459.00"
+  },
+  "A17": {
+    "t": "s",
+    "v": "III. Należności długoterminowe",
+    "r": "<t xml:space=\"preserve\">III. Należności długoterminowe</t>",
+    "h": "III. Należności długoterminowe",
+    "w": "III. Należności długoterminowe"
+  },
+  "B17": {
+    "t": "n",
+    "v": 51,
+    "f": "SUM(B18:B19)",
+    "w": "51.00"
+  },
+  "C17": {
+    "t": "n",
+    "v": 51,
+    "f": "SUM(C18:C19)",
+    "w": "51.00"
+  },
+  "D17": {
+    "t": "n",
+    "v": 51,
+    "f": "SUM(D18:D19)",
+    "w": "51.00"
+  },
+  "A18": {
+    "t": "s",
+    "v": "Od jednostek powiązanych",
+    "r": "<t xml:space=\"preserve\">Od jednostek powiązanych</t>",
+    "h": "Od jednostek powiązanych",
+    "w": "Od jednostek powiązanych"
+  },
+  "B18": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "C18": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "D18": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "A19": {
+    "t": "s",
+    "v": "Od pozostałych jednostek",
+    "r": "<t xml:space=\"preserve\">Od pozostałych jednostek</t>",
+    "h": "Od pozostałych jednostek",
+    "w": "Od pozostałych jednostek"
+  },
+  "B19": {
+    "t": "n",
+    "v": 51,
+    "w": "51.00"
+  },
+  "C19": {
+    "t": "n",
+    "v": 51,
+    "w": "51.00"
+  },
+  "D19": {
+    "t": "n",
+    "v": 51,
+    "w": "51.00"
+  },
+  "A20": {
+    "t": "s",
+    "v": "IV. Inwestycje długoterminowe",
+    "r": "<t xml:space=\"preserve\">IV. Inwestycje długoterminowe</t>",
+    "h": "IV. Inwestycje długoterminowe",
+    "w": "IV. Inwestycje długoterminowe"
+  },
+  "B20": {
+    "t": "n",
+    "v": 2693,
+    "f": "B21+B22+B23+B28+B33",
+    "w": "2,693.00"
+  },
+  "C20": {
+    "t": "n",
+    "v": 2693,
+    "f": "C21+C22+C23+C28+C33",
+    "w": "2,693.00"
+  },
+  "D20": {
+    "t": "n",
+    "v": 2693,
+    "f": "D21+D22+D23+D28+D33",
+    "w": "2,693.00"
+  },
+  "A21": {
+    "t": "s",
+    "v": "Nieruchomości",
+    "r": "<t xml:space=\"preserve\">Nieruchomości</t>",
+    "h": "Nieruchomości",
+    "w": "Nieruchomości"
+  },
+  "A22": {
+    "t": "s",
+    "v": "Wartości niematerialne i prawne",
+    "r": "<t xml:space=\"preserve\">Wartości niematerialne i prawne</t>",
+    "h": "Wartości niematerialne i prawne",
+    "w": "Wartości niematerialne i prawne"
+  },
+  "A23": {
+    "t": "s",
+    "v": "Długoterminowe aktywa finansowe w jednostkach powiązanych",
+    "r": "<t xml:space=\"preserve\">Długoterminowe aktywa finansowe w jednostkach powiązanych</t>",
+    "h": "Długoterminowe aktywa finansowe w jednostkach powiązanych",
+    "w": "Długoterminowe aktywa finansowe w jednostkach powiązanych"
+  },
+  "B23": {
+    "t": "n",
+    "v": 2693,
+    "f": "SUM(B24:B27)",
+    "w": "2,693.00"
+  },
+  "C23": {
+    "t": "n",
+    "v": 2693,
+    "f": "SUM(C24:C27)",
+    "w": "2,693.00"
+  },
+  "D23": {
+    "t": "n",
+    "v": 2693,
+    "f": "SUM(D24:D27)",
+    "w": "2,693.00"
+  },
+  "A24": {
+    "t": "s",
+    "v": "udziały lub akcje",
+    "r": "<t xml:space=\"preserve\">udziały lub akcje</t>",
+    "h": "udziały lub akcje",
+    "w": "udziały lub akcje"
+  },
+  "B24": {
+    "t": "n",
+    "v": 2693,
+    "w": "2,693.00"
+  },
+  "C24": {
+    "t": "n",
+    "v": 2693,
+    "w": "2,693.00"
+  },
+  "D24": {
+    "t": "n",
+    "v": 2693,
+    "w": "2,693.00"
+  },
+  "A25": {
+    "t": "s",
+    "v": "inne papiery wartościowe",
+    "r": "<t xml:space=\"preserve\">inne papiery wartościowe</t>",
+    "h": "inne papiery wartościowe",
+    "w": "inne papiery wartościowe"
+  },
+  "A26": {
+    "t": "s",
+    "v": "udzielone pożyczki",
+    "r": "<t xml:space=\"preserve\">udzielone pożyczki</t>",
+    "h": "udzielone pożyczki",
+    "w": "udzielone pożyczki"
+  },
+  "A27": {
+    "t": "s",
+    "v": "inne długoterminowe aktywa finansowe",
+    "r": "<t xml:space=\"preserve\">inne długoterminowe aktywa finansowe</t>",
+    "h": "inne długoterminowe aktywa finansowe",
+    "w": "inne długoterminowe aktywa finansowe"
+  },
+  "A28": {
+    "t": "s",
+    "v": "Długoterminowe aktywa finansowe w pozostałych jednostkach",
+    "r": "<t xml:space=\"preserve\">Długoterminowe aktywa finansowe w pozostałych jednostkach</t>",
+    "h": "Długoterminowe aktywa finansowe w pozostałych jednostkach",
+    "w": "Długoterminowe aktywa finansowe w pozostałych jednostkach"
+  },
+  "B28": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(B29:B32)",
+    "w": "0.00"
+  },
+  "C28": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(C29:C32)",
+    "w": "0.00"
+  },
+  "D28": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(D29:D32)",
+    "w": "0.00"
+  },
+  "A29": {
+    "t": "s",
+    "v": "udziały lub akcje",
+    "r": "<t xml:space=\"preserve\">udziały lub akcje</t>",
+    "h": "udziały lub akcje",
+    "w": "udziały lub akcje"
+  },
+  "B29": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "C29": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "D29": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "A30": {
+    "t": "s",
+    "v": "inne papiery wartościowe",
+    "r": "<t xml:space=\"preserve\">inne papiery wartościowe</t>",
+    "h": "inne papiery wartościowe",
+    "w": "inne papiery wartościowe"
+  },
+  "A31": {
+    "t": "s",
+    "v": "udzielone pożyczki",
+    "r": "<t xml:space=\"preserve\">udzielone pożyczki</t>",
+    "h": "udzielone pożyczki",
+    "w": "udzielone pożyczki"
+  },
+  "A32": {
+    "t": "s",
+    "v": "inne długoterminowe aktywa finansowe",
+    "r": "<t xml:space=\"preserve\">inne długoterminowe aktywa finansowe</t>",
+    "h": "inne długoterminowe aktywa finansowe",
+    "w": "inne długoterminowe aktywa finansowe"
+  },
+  "A33": {
+    "t": "s",
+    "v": "Inne inwestycje długoterminowe",
+    "r": "<t xml:space=\"preserve\">Inne inwestycje długoterminowe</t>",
+    "h": "Inne inwestycje długoterminowe",
+    "w": "Inne inwestycje długoterminowe"
+  },
+  "A34": {
+    "t": "s",
+    "v": "V. Długoterminowe rozliczenia międzyokresowe",
+    "r": "<t xml:space=\"preserve\">V. Długoterminowe rozliczenia międzyokresowe</t>",
+    "h": "V. Długoterminowe rozliczenia międzyokresowe",
+    "w": "V. Długoterminowe rozliczenia międzyokresowe"
+  },
+  "B34": {
+    "t": "n",
+    "v": 74,
+    "f": "SUM(B35:B36)",
+    "w": "74.00"
+  },
+  "C34": {
+    "t": "n",
+    "v": 74,
+    "f": "SUM(C35:C36)",
+    "w": "74.00"
+  },
+  "D34": {
+    "t": "n",
+    "v": 74,
+    "f": "SUM(D35:D36)",
+    "w": "74.00"
+  },
+  "A35": {
+    "t": "s",
+    "v": "Aktywa z tytułu odroczonego podatku dochodowego",
+    "r": "<t xml:space=\"preserve\">Aktywa z tytułu odroczonego podatku dochodowego</t>",
+    "h": "Aktywa z tytułu odroczonego podatku dochodowego",
+    "w": "Aktywa z tytułu odroczonego podatku dochodowego"
+  },
+  "A36": {
+    "t": "s",
+    "v": "Inne rozliczenia międzyokresowe",
+    "r": "<t xml:space=\"preserve\">Inne rozliczenia międzyokresowe</t>",
+    "h": "Inne rozliczenia międzyokresowe",
+    "w": "Inne rozliczenia międzyokresowe"
+  },
+  "B36": {
+    "t": "n",
+    "v": 74,
+    "w": "74.00"
+  },
+  "C36": {
+    "t": "n",
+    "v": 74,
+    "w": "74.00"
+  },
+  "D36": {
+    "t": "n",
+    "v": 74,
+    "w": "74.00"
+  },
+  "A37": {
+    "t": "s",
+    "v": "B. Aktywa obrotowe",
+    "r": "<t xml:space=\"preserve\">B. Aktywa obrotowe</t>",
+    "h": "B. Aktywa obrotowe",
+    "w": "B. Aktywa obrotowe"
+  },
+  "B37": {
+    "t": "n",
+    "v": 341748,
+    "f": "B38+B44+B56+B72",
+    "w": "341,748.00"
+  },
+  "C37": {
+    "t": "n",
+    "v": 341748,
+    "f": "C38+C44+C56+C72",
+    "w": "341,748.00"
+  },
+  "D37": {
+    "t": "n",
+    "v": 341748,
+    "f": "D38+D44+D56+D72",
+    "w": "341,748.00"
+  },
+  "A38": {
+    "t": "s",
+    "v": "l. Zapasy",
+    "r": "<t xml:space=\"preserve\">l. Zapasy</t>",
+    "h": "l. Zapasy",
+    "w": "l. Zapasy"
+  },
+  "B38": {
+    "t": "n",
+    "v": 42772,
+    "f": "SUM(B39:B43)",
+    "w": "42,772.00"
+  },
+  "C38": {
+    "t": "n",
+    "v": 42772,
+    "f": "SUM(C39:C43)",
+    "w": "42,772.00"
+  },
+  "D38": {
+    "t": "n",
+    "v": 42772,
+    "f": "SUM(D39:D43)",
+    "w": "42,772.00"
+  },
+  "A39": {
+    "t": "s",
+    "v": "Materiały",
+    "r": "<t xml:space=\"preserve\">Materiały</t>",
+    "h": "Materiały",
+    "w": "Materiały"
+  },
+  "B39": {
+    "t": "n",
+    "v": 19771,
+    "w": "19,771.00"
+  },
+  "C39": {
+    "t": "n",
+    "v": 19771,
+    "w": "19,771.00"
+  },
+  "D39": {
+    "t": "n",
+    "v": 19771,
+    "w": "19,771.00"
+  },
+  "A40": {
+    "t": "s",
+    "v": "Półprodukty i produkty w toku",
+    "r": "<t xml:space=\"preserve\">Półprodukty i produkty w toku</t>",
+    "h": "Półprodukty i produkty w toku",
+    "w": "Półprodukty i produkty w toku"
+  },
+  "B40": {
+    "t": "n",
+    "v": 5274,
+    "w": "5,274.00"
+  },
+  "C40": {
+    "t": "n",
+    "v": 5274,
+    "w": "5,274.00"
+  },
+  "D40": {
+    "t": "n",
+    "v": 5274,
+    "w": "5,274.00"
+  },
+  "A41": {
+    "t": "s",
+    "v": "Produkty gotowe",
+    "r": "<t xml:space=\"preserve\">Produkty gotowe</t>",
+    "h": "Produkty gotowe",
+    "w": "Produkty gotowe"
+  },
+  "B41": {
+    "t": "n",
+    "v": 17172,
+    "w": "17,172.00"
+  },
+  "C41": {
+    "t": "n",
+    "v": 17172,
+    "w": "17,172.00"
+  },
+  "D41": {
+    "t": "n",
+    "v": 17172,
+    "w": "17,172.00"
+  },
+  "A42": {
+    "t": "s",
+    "v": "Towary",
+    "r": "<t xml:space=\"preserve\">Towary</t>",
+    "h": "Towary",
+    "w": "Towary"
+  },
+  "B42": {
+    "t": "n",
+    "v": 312,
+    "w": "312.00"
+  },
+  "C42": {
+    "t": "n",
+    "v": 312,
+    "w": "312.00"
+  },
+  "D42": {
+    "t": "n",
+    "v": 312,
+    "w": "312.00"
+  },
+  "A43": {
+    "t": "s",
+    "v": "Zaliczki na dostawy",
+    "r": "<t xml:space=\"preserve\">Zaliczki na dostawy</t>",
+    "h": "Zaliczki na dostawy",
+    "w": "Zaliczki na dostawy"
+  },
+  "B43": {
+    "t": "n",
+    "v": 243,
+    "w": "243.00"
+  },
+  "C43": {
+    "t": "n",
+    "v": 243,
+    "w": "243.00"
+  },
+  "D43": {
+    "t": "n",
+    "v": 243,
+    "w": "243.00"
+  },
+  "A44": {
+    "t": "s",
+    "v": "II. Należności krótkoterminowe",
+    "r": "<t xml:space=\"preserve\">II. Należności krótkoterminowe</t>",
+    "h": "II. Należności krótkoterminowe",
+    "w": "II. Należności krótkoterminowe"
+  },
+  "B44": {
+    "t": "n",
+    "v": 190430,
+    "f": "B45+B49",
+    "w": "190,430.00"
+  },
+  "C44": {
+    "t": "n",
+    "v": 190430,
+    "f": "C45+C49",
+    "w": "190,430.00"
+  },
+  "D44": {
+    "t": "n",
+    "v": 190430,
+    "f": "D45+D49",
+    "w": "190,430.00"
+  },
+  "A45": {
+    "t": "s",
+    "v": "Należności od jednostek powiązanych",
+    "r": "<t xml:space=\"preserve\">Należności od jednostek powiązanych</t>",
+    "h": "Należności od jednostek powiązanych",
+    "w": "Należności od jednostek powiązanych"
+  },
+  "B45": {
+    "t": "n",
+    "v": 280,
+    "f": "SUM(B46:B48)",
+    "w": "280.00"
+  },
+  "C45": {
+    "t": "n",
+    "v": 280,
+    "f": "SUM(C46:C48)",
+    "w": "280.00"
+  },
+  "D45": {
+    "t": "n",
+    "v": 280,
+    "f": "SUM(D46:D48)",
+    "w": "280.00"
+  },
+  "A46": {
+    "t": "s",
+    "v": "z tytułu dostaw i usług, o okresie spłaty do 12 msc",
+    "r": "<t xml:space=\"preserve\">z tytułu dostaw i usług, o okresie spłaty do 12 msc</t>",
+    "h": "z tytułu dostaw i usług, o okresie spłaty do 12 msc",
+    "w": "z tytułu dostaw i usług, o okresie spłaty do 12 msc"
+  },
+  "B46": {
+    "t": "n",
+    "v": 280,
+    "w": "280.00"
+  },
+  "C46": {
+    "t": "n",
+    "v": 280,
+    "w": "280.00"
+  },
+  "D46": {
+    "t": "n",
+    "v": 280,
+    "w": "280.00"
+  },
+  "A47": {
+    "t": "s",
+    "v": "z tytułu dostaw i usług, o okresie spłaty pow. 12 msc",
+    "r": "<t xml:space=\"preserve\">z tytułu dostaw i usług, o okresie spłaty pow. 12 msc</t>",
+    "h": "z tytułu dostaw i usług, o okresie spłaty pow. 12 msc",
+    "w": "z tytułu dostaw i usług, o okresie spłaty pow. 12 msc"
+  },
+  "A48": {
+    "t": "s",
+    "v": "inne",
+    "r": "<t xml:space=\"preserve\">inne</t>",
+    "h": "inne",
+    "w": "inne"
+  },
+  "A49": {
+    "t": "s",
+    "v": "Należności od pozostałych jednostek",
+    "r": "<t xml:space=\"preserve\">Należności od pozostałych jednostek</t>",
+    "h": "Należności od pozostałych jednostek",
+    "w": "Należności od pozostałych jednostek"
+  },
+  "B49": {
+    "t": "n",
+    "v": 190150,
+    "f": "SUM(B50:B55)",
+    "w": "190,150.00"
+  },
+  "C49": {
+    "t": "n",
+    "v": 190150,
+    "f": "SUM(C50:C55)",
+    "w": "190,150.00"
+  },
+  "D49": {
+    "t": "n",
+    "v": 190150,
+    "f": "SUM(D50:D55)",
+    "w": "190,150.00"
+  },
+  "A50": {
+    "t": "s",
+    "v": "z tytułu dostaw i usług, o okresie spłaty do 12 msc",
+    "r": "<t xml:space=\"preserve\">z tytułu dostaw i usług, o okresie spłaty do 12 msc</t>",
+    "h": "z tytułu dostaw i usług, o okresie spłaty do 12 msc",
+    "w": "z tytułu dostaw i usług, o okresie spłaty do 12 msc"
+  },
+  "B50": {
+    "t": "n",
+    "v": 190121,
+    "w": "190,121.00"
+  },
+  "C50": {
+    "t": "n",
+    "v": 190121,
+    "w": "190,121.00"
+  },
+  "D50": {
+    "t": "n",
+    "v": 190121,
+    "w": "190,121.00"
+  },
+  "A51": {
+    "t": "s",
+    "v": "z tytułu dostaw i usług, o okresie spłaty pow. 12 msc",
+    "r": "<t xml:space=\"preserve\">z tytułu dostaw i usług, o okresie spłaty pow. 12 msc</t>",
+    "h": "z tytułu dostaw i usług, o okresie spłaty pow. 12 msc",
+    "w": "z tytułu dostaw i usług, o okresie spłaty pow. 12 msc"
+  },
+  "A52": {
+    "t": "s",
+    "v": "z tytułu podatków, dotacji, ceł, ubezpieczeń społecznych ",
+    "r": "<t xml:space=\"preserve\">z tytułu podatków, dotacji, ceł, ubezpieczeń społecznych </t>",
+    "h": "z tytułu podatków, dotacji, ceł, ubezpieczeń społecznych ",
+    "w": "z tytułu podatków, dotacji, ceł, ubezpieczeń społecznych "
+  },
+  "A53": {
+    "t": "s",
+    "v": "  i zdrowotnych oraz innych świadczeń",
+    "r": "<t xml:space=\"preserve\">  i zdrowotnych oraz innych świadczeń</t>",
+    "h": "  i zdrowotnych oraz innych świadczeń",
+    "w": "  i zdrowotnych oraz innych świadczeń"
+  },
+  "A54": {
+    "t": "s",
+    "v": "inne",
+    "r": "<t xml:space=\"preserve\">inne</t>",
+    "h": "inne",
+    "w": "inne"
+  },
+  "B54": {
+    "t": "n",
+    "v": 29,
+    "w": "29.00"
+  },
+  "C54": {
+    "t": "n",
+    "v": 29,
+    "w": "29.00"
+  },
+  "D54": {
+    "t": "n",
+    "v": 29,
+    "w": "29.00"
+  },
+  "A55": {
+    "t": "s",
+    "v": "dochodzone na drodze sądowej",
+    "r": "<t xml:space=\"preserve\">dochodzone na drodze sądowej</t>",
+    "h": "dochodzone na drodze sądowej",
+    "w": "dochodzone na drodze sądowej"
+  },
+  "A56": {
+    "t": "s",
+    "v": "III. Inwestycje krótkoterminowe",
+    "r": "<t xml:space=\"preserve\">III. Inwestycje krótkoterminowe</t>",
+    "h": "III. Inwestycje krótkoterminowe",
+    "w": "III. Inwestycje krótkoterminowe"
+  },
+  "B56": {
+    "t": "n",
+    "v": 108189,
+    "f": "B57+B62+B67+B71",
+    "w": "108,189.00"
+  },
+  "C56": {
+    "t": "n",
+    "v": 108189,
+    "f": "C57+C62+C67+C71",
+    "w": "108,189.00"
+  },
+  "D56": {
+    "t": "n",
+    "v": 108189,
+    "f": "D57+D62+D67+D71",
+    "w": "108,189.00"
+  },
+  "A57": {
+    "t": "s",
+    "v": "Krótkoterminowe aktywa finansowe w jednostkach powiązanych",
+    "r": "<t xml:space=\"preserve\">Krótkoterminowe aktywa finansowe w jednostkach powiązanych</t>",
+    "h": "Krótkoterminowe aktywa finansowe w jednostkach powiązanych",
+    "w": "Krótkoterminowe aktywa finansowe w jednostkach powiązanych"
+  },
+  "B57": {
+    "t": "n",
+    "v": 1314,
+    "f": "SUM(B58:B61)",
+    "w": "1,314.00"
+  },
+  "C57": {
+    "t": "n",
+    "v": 1314,
+    "f": "SUM(C58:C61)",
+    "w": "1,314.00"
+  },
+  "D57": {
+    "t": "n",
+    "v": 1314,
+    "f": "SUM(D58:D61)",
+    "w": "1,314.00"
+  },
+  "A58": {
+    "t": "s",
+    "v": "udziały lub akcje",
+    "r": "<t xml:space=\"preserve\">udziały lub akcje</t>",
+    "h": "udziały lub akcje",
+    "w": "udziały lub akcje"
+  },
+  "A59": {
+    "t": "s",
+    "v": "inne papiery wartościowe",
+    "r": "<t xml:space=\"preserve\">inne papiery wartościowe</t>",
+    "h": "inne papiery wartościowe",
+    "w": "inne papiery wartościowe"
+  },
+  "A60": {
+    "t": "s",
+    "v": "udzielone pożyczki",
+    "r": "<t xml:space=\"preserve\">udzielone pożyczki</t>",
+    "h": "udzielone pożyczki",
+    "w": "udzielone pożyczki"
+  },
+  "B60": {
+    "t": "n",
+    "v": 1314,
+    "w": "1,314.00"
+  },
+  "C60": {
+    "t": "n",
+    "v": 1314,
+    "w": "1,314.00"
+  },
+  "D60": {
+    "t": "n",
+    "v": 1314,
+    "w": "1,314.00"
+  },
+  "A61": {
+    "t": "s",
+    "v": "inne krótkoterminowe aktywa finansowe",
+    "r": "<t xml:space=\"preserve\">inne krótkoterminowe aktywa finansowe</t>",
+    "h": "inne krótkoterminowe aktywa finansowe",
+    "w": "inne krótkoterminowe aktywa finansowe"
+  },
+  "A62": {
+    "t": "s",
+    "v": "Krótkoterminowe aktywa finansowe w pozostałych jednostkach",
+    "r": "<t xml:space=\"preserve\">Krótkoterminowe aktywa finansowe w pozostałych jednostkach</t>",
+    "h": "Krótkoterminowe aktywa finansowe w pozostałych jednostkach",
+    "w": "Krótkoterminowe aktywa finansowe w pozostałych jednostkach"
+  },
+  "B62": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(B63:B66)",
+    "w": "0.00"
+  },
+  "C62": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(C63:C66)",
+    "w": "0.00"
+  },
+  "D62": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(D63:D66)",
+    "w": "0.00"
+  },
+  "A63": {
+    "t": "s",
+    "v": "udziały lub akcje",
+    "r": "<t xml:space=\"preserve\">udziały lub akcje</t>",
+    "h": "udziały lub akcje",
+    "w": "udziały lub akcje"
+  },
+  "A64": {
+    "t": "s",
+    "v": "inne papiery wartościowe",
+    "r": "<t xml:space=\"preserve\">inne papiery wartościowe</t>",
+    "h": "inne papiery wartościowe",
+    "w": "inne papiery wartościowe"
+  },
+  "A65": {
+    "t": "s",
+    "v": "udzielone pożyczki",
+    "r": "<t xml:space=\"preserve\">udzielone pożyczki</t>",
+    "h": "udzielone pożyczki",
+    "w": "udzielone pożyczki"
+  },
+  "A66": {
+    "t": "s",
+    "v": "inne krótkoterminowe aktywa finansowe",
+    "r": "<t xml:space=\"preserve\">inne krótkoterminowe aktywa finansowe</t>",
+    "h": "inne krótkoterminowe aktywa finansowe",
+    "w": "inne krótkoterminowe aktywa finansowe"
+  },
+  "A67": {
+    "t": "s",
+    "v": "Środki pieniężne i inne aktywa pieniężne",
+    "r": "<t xml:space=\"preserve\">Środki pieniężne i inne aktywa pieniężne</t>",
+    "h": "Środki pieniężne i inne aktywa pieniężne",
+    "w": "Środki pieniężne i inne aktywa pieniężne"
+  },
+  "B67": {
+    "t": "n",
+    "v": 106875,
+    "f": "SUM(B68:B70)",
+    "w": "106,875.00"
+  },
+  "C67": {
+    "t": "n",
+    "v": 106875,
+    "f": "SUM(C68:C70)",
+    "w": "106,875.00"
+  },
+  "D67": {
+    "t": "n",
+    "v": 106875,
+    "f": "SUM(D68:D70)",
+    "w": "106,875.00"
+  },
+  "A68": {
+    "t": "s",
+    "v": "środki pieniężne w kasie i na rachunkach",
+    "r": "<t xml:space=\"preserve\">środki pieniężne w kasie i na rachunkach</t>",
+    "h": "środki pieniężne w kasie i na rachunkach",
+    "w": "środki pieniężne w kasie i na rachunkach"
+  },
+  "B68": {
+    "t": "n",
+    "v": 106828,
+    "w": "106,828.00"
+  },
+  "C68": {
+    "t": "n",
+    "v": 106828,
+    "w": "106,828.00"
+  },
+  "D68": {
+    "t": "n",
+    "v": 106828,
+    "w": "106,828.00"
+  },
+  "A69": {
+    "t": "s",
+    "v": " inne środki pieniężne",
+    "r": "<t xml:space=\"preserve\"> inne środki pieniężne</t>",
+    "h": " inne środki pieniężne",
+    "w": " inne środki pieniężne"
+  },
+  "B69": {
+    "t": "n",
+    "v": 29,
+    "w": "29.00"
+  },
+  "C69": {
+    "t": "n",
+    "v": 29,
+    "w": "29.00"
+  },
+  "D69": {
+    "t": "n",
+    "v": 29,
+    "w": "29.00"
+  },
+  "A70": {
+    "t": "s",
+    "v": "inne aktywa pieniężne ",
+    "r": "<t xml:space=\"preserve\">inne aktywa pieniężne </t>",
+    "h": "inne aktywa pieniężne ",
+    "w": "inne aktywa pieniężne "
+  },
+  "B70": {
+    "t": "n",
+    "v": 18,
+    "w": "18.00"
+  },
+  "C70": {
+    "t": "n",
+    "v": 18,
+    "w": "18.00"
+  },
+  "D70": {
+    "t": "n",
+    "v": 18,
+    "w": "18.00"
+  },
+  "A71": {
+    "t": "s",
+    "v": "Inne inwestycje krótkoterminowe",
+    "r": "<t xml:space=\"preserve\">Inne inwestycje krótkoterminowe</t>",
+    "h": "Inne inwestycje krótkoterminowe",
+    "w": "Inne inwestycje krótkoterminowe"
+  },
+  "A72": {
+    "t": "s",
+    "v": "IV. Krótkoterminowe rozliczenia międzyokresowe ",
+    "r": "<t xml:space=\"preserve\">IV. Krótkoterminowe rozliczenia międzyokresowe </t>",
+    "h": "IV. Krótkoterminowe rozliczenia międzyokresowe ",
+    "w": "IV. Krótkoterminowe rozliczenia międzyokresowe "
+  },
+  "B72": {
+    "t": "n",
+    "v": 357,
+    "w": "357.00"
+  },
+  "C72": {
+    "t": "n",
+    "v": 357,
+    "w": "357.00"
+  },
+  "D72": {
+    "t": "n",
+    "v": 357,
+    "w": "357.00"
+  },
+  "A73": {
+    "t": "s",
+    "v": "Aktywa razem",
+    "r": "<t xml:space=\"preserve\">Aktywa razem</t>",
+    "h": "Aktywa razem",
+    "w": "Aktywa razem"
+  },
+  "B73": {
+    "t": "n",
+    "v": 554904,
+    "f": "B2+B37",
+    "w": "554,904.00"
+  },
+  "C73": {
+    "t": "n",
+    "v": 554904,
+    "f": "C2+C37",
+    "w": "554,904.00"
+  },
+  "D73": {
+    "t": "n",
+    "v": 554904,
+    "f": "D2+D37",
+    "w": "554,904.00"
+  },
+  "A75": {
+    "t": "s",
+    "v": "Pasywa",
+    "r": "<t xml:space=\"preserve\">Pasywa</t>",
+    "h": "Pasywa",
+    "w": "Pasywa"
+  },
+  "B75": {
+    "t": "n",
+    "v": 2014,
+    "f": "B1",
+    "w": "2014"
+  },
+  "C75": {
+    "t": "n",
+    "v": 2014,
+    "f": "C1",
+    "w": "2014"
+  },
+  "D75": {
+    "t": "n",
+    "v": 2014,
+    "f": "D1",
+    "w": "2014"
+  },
+  "A76": {
+    "t": "s",
+    "v": "A. Kapitał (fundusz) własny",
+    "r": "<t xml:space=\"preserve\">A. Kapitał (fundusz) własny</t>",
+    "h": "A. Kapitał (fundusz) własny",
+    "w": "A. Kapitał (fundusz) własny"
+  },
+  "B76": {
+    "t": "n",
+    "v": 429356,
+    "f": "SUM(B77:B85)",
+    "w": "429,356.00"
+  },
+  "C76": {
+    "t": "n",
+    "v": 429356,
+    "f": "SUM(C77:C85)",
+    "w": "429,356.00"
+  },
+  "D76": {
+    "t": "n",
+    "v": 429356,
+    "f": "SUM(D77:D85)",
+    "w": "429,356.00"
+  },
+  "A77": {
+    "t": "s",
+    "v": "Kapitał (fundusz) podstawowy",
+    "r": "<t xml:space=\"preserve\">Kapitał (fundusz) podstawowy</t>",
+    "h": "Kapitał (fundusz) podstawowy",
+    "w": "Kapitał (fundusz) podstawowy"
+  },
+  "B77": {
+    "t": "n",
+    "v": 7499,
+    "w": "7,499.00"
+  },
+  "C77": {
+    "t": "n",
+    "v": 7499,
+    "w": "7,499.00"
+  },
+  "D77": {
+    "t": "n",
+    "v": 7499,
+    "w": "7,499.00"
+  },
+  "A78": {
+    "t": "s",
+    "v": "Należne wpłaty na kapitał podstawowy (wielkość ujemna)",
+    "r": "<t xml:space=\"preserve\">Należne wpłaty na kapitał podstawowy (wielkość ujemna)</t>",
+    "h": "Należne wpłaty na kapitał podstawowy (wielkość ujemna)",
+    "w": "Należne wpłaty na kapitał podstawowy (wielkość ujemna)"
+  },
+  "A79": {
+    "t": "s",
+    "v": "Udziały (akcje) własne (wielkość ujemna)",
+    "r": "<t xml:space=\"preserve\">Udziały (akcje) własne (wielkość ujemna)</t>",
+    "h": "Udziały (akcje) własne (wielkość ujemna)",
+    "w": "Udziały (akcje) własne (wielkość ujemna)"
+  },
+  "A80": {
+    "t": "s",
+    "v": "Kapitał (fundusz) zapasowy (+kapitał z emisji akcji pow. Wartości nominalnej + inne składniki kapitału)",
+    "r": "<t xml:space=\"preserve\">Kapitał (fundusz) zapasowy (+kapitał z emisji akcji pow. Wartości nominalnej + inne składniki kapitału)</t>",
+    "h": "Kapitał (fundusz) zapasowy (+kapitał z emisji akcji pow. Wartości nominalnej + inne składniki kapitału)",
+    "w": "Kapitał (fundusz) zapasowy (+kapitał z emisji akcji pow. Wartości nominalnej + inne składniki kapitału)"
+  },
+  "B80": {
+    "t": "n",
+    "v": 333056,
+    "f": "316109+18146-1199",
+    "w": "333,056.00"
+  },
+  "C80": {
+    "t": "n",
+    "v": 333056,
+    "f": "316109+18146-1199",
+    "w": "333,056.00"
+  },
+  "D80": {
+    "t": "n",
+    "v": 333056,
+    "f": "316109+18146-1199",
+    "w": "333,056.00"
+  },
+  "A81": {
+    "t": "s",
+    "v": "Kapitał (fundusz) z aktualizacji wyceny",
+    "r": "<t xml:space=\"preserve\">Kapitał (fundusz) z aktualizacji wyceny</t>",
+    "h": "Kapitał (fundusz) z aktualizacji wyceny",
+    "w": "Kapitał (fundusz) z aktualizacji wyceny"
+  },
+  "B81": {
+    "t": "n",
+    "v": 947,
+    "w": "947.00"
+  },
+  "C81": {
+    "t": "n",
+    "v": 947,
+    "w": "947.00"
+  },
+  "D81": {
+    "t": "n",
+    "v": 947,
+    "w": "947.00"
+  },
+  "A82": {
+    "t": "s",
+    "v": "Pozostałe kapitały (fundusze) rezerwowe",
+    "r": "<t xml:space=\"preserve\">Pozostałe kapitały (fundusze) rezerwowe</t>",
+    "h": "Pozostałe kapitały (fundusze) rezerwowe",
+    "w": "Pozostałe kapitały (fundusze) rezerwowe"
+  },
+  "A83": {
+    "t": "s",
+    "v": "Zysk (strata) z lat ubiegłych",
+    "r": "<t xml:space=\"preserve\">Zysk (strata) z lat ubiegłych</t>",
+    "h": "Zysk (strata) z lat ubiegłych",
+    "w": "Zysk (strata) z lat ubiegłych"
+  },
+  "B83": {
+    "t": "n",
+    "v": -181,
+    "w": "-181.00"
+  },
+  "C83": {
+    "t": "n",
+    "v": -181,
+    "w": "-181.00"
+  },
+  "D83": {
+    "t": "n",
+    "v": -181,
+    "w": "-181.00"
+  },
+  "A84": {
+    "t": "s",
+    "v": "Zysk (strata) netto",
+    "r": "<t xml:space=\"preserve\">Zysk (strata) netto</t>",
+    "h": "Zysk (strata) netto",
+    "w": "Zysk (strata) netto"
+  },
+  "B84": {
+    "t": "n",
+    "v": 88035,
+    "w": "88,035.00"
+  },
+  "C84": {
+    "t": "n",
+    "v": 88035,
+    "w": "88,035.00"
+  },
+  "D84": {
+    "t": "n",
+    "v": 88035,
+    "w": "88,035.00"
+  },
+  "A85": {
+    "t": "s",
+    "v": "Odpisy z zysku netto w ciągu roku obrotowego (wlk ujemna)",
+    "r": "<t xml:space=\"preserve\">Odpisy z zysku netto w ciągu roku obrotowego (wlk ujemna)</t>",
+    "h": "Odpisy z zysku netto w ciągu roku obrotowego (wlk ujemna)",
+    "w": "Odpisy z zysku netto w ciągu roku obrotowego (wlk ujemna)"
+  },
+  "A86": {
+    "t": "s",
+    "v": "B. Zobowiązania i rezerwy na zobowiązania",
+    "r": "<t xml:space=\"preserve\">B. Zobowiązania i rezerwy na zobowiązania</t>",
+    "h": "B. Zobowiązania i rezerwy na zobowiązania",
+    "w": "B. Zobowiązania i rezerwy na zobowiązania"
+  },
+  "B86": {
+    "t": "n",
+    "v": 125548,
+    "f": "B87+B95+B102+B119",
+    "w": "125,548.00"
+  },
+  "C86": {
+    "t": "n",
+    "v": 125548,
+    "f": "C87+C95+C102+C119",
+    "w": "125,548.00"
+  },
+  "D86": {
+    "t": "n",
+    "v": 125548,
+    "f": "D87+D95+D102+D119",
+    "w": "125,548.00"
+  },
+  "A87": {
+    "t": "s",
+    "v": "I. Rezerwy na zobowiązania",
+    "r": "<t xml:space=\"preserve\">I. Rezerwy na zobowiązania</t>",
+    "h": "I. Rezerwy na zobowiązania",
+    "w": "I. Rezerwy na zobowiązania"
+  },
+  "B87": {
+    "t": "n",
+    "v": 17343,
+    "f": "B88+B89+B92",
+    "w": "17,343.00"
+  },
+  "C87": {
+    "t": "n",
+    "v": 17343,
+    "f": "C88+C89+C92",
+    "w": "17,343.00"
+  },
+  "D87": {
+    "t": "n",
+    "v": 17343,
+    "f": "D88+D89+D92",
+    "w": "17,343.00"
+  },
+  "A88": {
+    "t": "s",
+    "v": "Rezerwa z tytułu odroczonego podatku dochodowego",
+    "r": "<t xml:space=\"preserve\">Rezerwa z tytułu odroczonego podatku dochodowego</t>",
+    "h": "Rezerwa z tytułu odroczonego podatku dochodowego",
+    "w": "Rezerwa z tytułu odroczonego podatku dochodowego"
+  },
+  "B88": {
+    "t": "n",
+    "v": 6789,
+    "w": "6,789.00"
+  },
+  "C88": {
+    "t": "n",
+    "v": 6789,
+    "w": "6,789.00"
+  },
+  "D88": {
+    "t": "n",
+    "v": 6789,
+    "w": "6,789.00"
+  },
+  "A89": {
+    "t": "s",
+    "v": "Rezerwa na świadczenia emerytalne i podobne",
+    "r": "<t xml:space=\"preserve\">Rezerwa na świadczenia emerytalne i podobne</t>",
+    "h": "Rezerwa na świadczenia emerytalne i podobne",
+    "w": "Rezerwa na świadczenia emerytalne i podobne"
+  },
+  "B89": {
+    "t": "n",
+    "v": 10554,
+    "f": "SUM(B90:B91)",
+    "w": "10,554.00"
+  },
+  "C89": {
+    "t": "n",
+    "v": 10554,
+    "f": "SUM(C90:C91)",
+    "w": "10,554.00"
+  },
+  "D89": {
+    "t": "n",
+    "v": 10554,
+    "f": "SUM(D90:D91)",
+    "w": "10,554.00"
+  },
+  "A90": {
+    "t": "s",
+    "v": "długoterminowa",
+    "r": "<t xml:space=\"preserve\">długoterminowa</t>",
+    "h": "długoterminowa",
+    "w": "długoterminowa"
+  },
+  "B90": {
+    "t": "n",
+    "v": 9996,
+    "w": "9,996.00"
+  },
+  "C90": {
+    "t": "n",
+    "v": 9996,
+    "w": "9,996.00"
+  },
+  "D90": {
+    "t": "n",
+    "v": 9996,
+    "w": "9,996.00"
+  },
+  "A91": {
+    "t": "s",
+    "v": "krótkoterminowa",
+    "r": "<t xml:space=\"preserve\">krótkoterminowa</t>",
+    "h": "krótkoterminowa",
+    "w": "krótkoterminowa"
+  },
+  "B91": {
+    "t": "n",
+    "v": 558,
+    "w": "558.00"
+  },
+  "C91": {
+    "t": "n",
+    "v": 558,
+    "w": "558.00"
+  },
+  "D91": {
+    "t": "n",
+    "v": 558,
+    "w": "558.00"
+  },
+  "A92": {
+    "t": "s",
+    "v": " Pozostałe rezerwy",
+    "r": "<t xml:space=\"preserve\"> Pozostałe rezerwy</t>",
+    "h": " Pozostałe rezerwy",
+    "w": " Pozostałe rezerwy"
+  },
+  "B92": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(B93:B94)",
+    "w": "0.00"
+  },
+  "C92": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(C93:C94)",
+    "w": "0.00"
+  },
+  "D92": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(D93:D94)",
+    "w": "0.00"
+  },
+  "A93": {
+    "t": "s",
+    "v": "długoterminowa",
+    "r": "<t xml:space=\"preserve\">długoterminowa</t>",
+    "h": "długoterminowa",
+    "w": "długoterminowa"
+  },
+  "A94": {
+    "t": "s",
+    "v": "krótkoterminowe",
+    "r": "<t xml:space=\"preserve\">krótkoterminowe</t>",
+    "h": "krótkoterminowe",
+    "w": "krótkoterminowe"
+  },
+  "A95": {
+    "t": "s",
+    "v": "II. Zobowiązania długoterminowe",
+    "r": "<t xml:space=\"preserve\">II. Zobowiązania długoterminowe</t>",
+    "h": "II. Zobowiązania długoterminowe",
+    "w": "II. Zobowiązania długoterminowe"
+  },
+  "B95": {
+    "t": "n",
+    "v": 50,
+    "f": "B96+B97",
+    "w": "50.00"
+  },
+  "C95": {
+    "t": "n",
+    "v": 50,
+    "f": "C96+C97",
+    "w": "50.00"
+  },
+  "D95": {
+    "t": "n",
+    "v": 50,
+    "f": "D96+D97",
+    "w": "50.00"
+  },
+  "A96": {
+    "t": "s",
+    "v": "Wobec jednostek powiązanych",
+    "r": "<t xml:space=\"preserve\">Wobec jednostek powiązanych</t>",
+    "h": "Wobec jednostek powiązanych",
+    "w": "Wobec jednostek powiązanych"
+  },
+  "A97": {
+    "t": "s",
+    "v": "Wobec pozostałych jednostek",
+    "r": "<t xml:space=\"preserve\">Wobec pozostałych jednostek</t>",
+    "h": "Wobec pozostałych jednostek",
+    "w": "Wobec pozostałych jednostek"
+  },
+  "B97": {
+    "t": "n",
+    "v": 50,
+    "f": "SUM(B98:B101)",
+    "w": "50.00"
+  },
+  "C97": {
+    "t": "n",
+    "v": 50,
+    "f": "SUM(C98:C101)",
+    "w": "50.00"
+  },
+  "D97": {
+    "t": "n",
+    "v": 50,
+    "f": "SUM(D98:D101)",
+    "w": "50.00"
+  },
+  "A98": {
+    "t": "s",
+    "v": "kredyty i pożyczki",
+    "r": "<t xml:space=\"preserve\">kredyty i pożyczki</t>",
+    "h": "kredyty i pożyczki",
+    "w": "kredyty i pożyczki"
+  },
+  "A99": {
+    "t": "s",
+    "v": "z tytułu emisji dłużnych papierów wartościowych",
+    "r": "<t xml:space=\"preserve\">z tytułu emisji dłużnych papierów wartościowych</t>",
+    "h": "z tytułu emisji dłużnych papierów wartościowych",
+    "w": "z tytułu emisji dłużnych papierów wartościowych"
+  },
+  "A100": {
+    "t": "s",
+    "v": "inne zobowiązania finansowe",
+    "r": "<t xml:space=\"preserve\">inne zobowiązania finansowe</t>",
+    "h": "inne zobowiązania finansowe",
+    "w": "inne zobowiązania finansowe"
+  },
+  "A101": {
+    "t": "s",
+    "v": "inne",
+    "r": "<t xml:space=\"preserve\">inne</t>",
+    "h": "inne",
+    "w": "inne"
+  },
+  "B101": {
+    "t": "n",
+    "v": 50,
+    "w": "50.00"
+  },
+  "C101": {
+    "t": "n",
+    "v": 50,
+    "w": "50.00"
+  },
+  "D101": {
+    "t": "n",
+    "v": 50,
+    "w": "50.00"
+  },
+  "A102": {
+    "t": "s",
+    "v": "III. Zobowiązania krótkoterminowe",
+    "r": "<t xml:space=\"preserve\">III. Zobowiązania krótkoterminowe</t>",
+    "h": "III. Zobowiązania krótkoterminowe",
+    "w": "III. Zobowiązania krótkoterminowe"
+  },
+  "B102": {
+    "t": "n",
+    "v": 97466,
+    "f": "B103+B107+B118",
+    "w": "97,466.00"
+  },
+  "C102": {
+    "t": "n",
+    "v": 97466,
+    "f": "C103+C107+C118",
+    "w": "97,466.00"
+  },
+  "D102": {
+    "t": "n",
+    "v": 97466,
+    "f": "D103+D107+D118",
+    "w": "97,466.00"
+  },
+  "A103": {
+    "t": "s",
+    "v": "Wobec jednostek powiązanych",
+    "r": "<t xml:space=\"preserve\">Wobec jednostek powiązanych</t>",
+    "h": "Wobec jednostek powiązanych",
+    "w": "Wobec jednostek powiązanych"
+  },
+  "B103": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(B104:B106)",
+    "w": "0.00"
+  },
+  "C103": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(C104:C106)",
+    "w": "0.00"
+  },
+  "D103": {
+    "t": "n",
+    "v": 0,
+    "f": "SUM(D104:D106)",
+    "w": "0.00"
+  },
+  "A104": {
+    "t": "s",
+    "v": "z tytułu dostaw i usług, o okresie wymagalności do 12 msc",
+    "r": "<t xml:space=\"preserve\">z tytułu dostaw i usług, o okresie wymagalności do 12 msc</t>",
+    "h": "z tytułu dostaw i usług, o okresie wymagalności do 12 msc",
+    "w": "z tytułu dostaw i usług, o okresie wymagalności do 12 msc"
+  },
+  "B104": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "C104": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "D104": {
+    "t": "n",
+    "v": 0,
+    "w": "0.00"
+  },
+  "A105": {
+    "t": "s",
+    "v": "z tytułu dostaw i usług, o okresie wymagalności pow. 12 msc",
+    "r": "<t xml:space=\"preserve\">z tytułu dostaw i usług, o okresie wymagalności pow. 12 msc</t>",
+    "h": "z tytułu dostaw i usług, o okresie wymagalności pow. 12 msc",
+    "w": "z tytułu dostaw i usług, o okresie wymagalności pow. 12 msc"
+  },
+  "A106": {
+    "t": "s",
+    "v": "inne",
+    "r": "<t xml:space=\"preserve\">inne</t>",
+    "h": "inne",
+    "w": "inne"
+  },
+  "A107": {
+    "t": "s",
+    "v": "Wobec pozostałych jednostek",
+    "r": "<t xml:space=\"preserve\">Wobec pozostałych jednostek</t>",
+    "h": "Wobec pozostałych jednostek",
+    "w": "Wobec pozostałych jednostek"
+  },
+  "B107": {
+    "t": "n",
+    "v": 97466,
+    "f": "SUM(B108:B117)",
+    "w": "97,466.00"
+  },
+  "C107": {
+    "t": "n",
+    "v": 97466,
+    "f": "SUM(C108:C117)",
+    "w": "97,466.00"
+  },
+  "D107": {
+    "t": "n",
+    "v": 97466,
+    "f": "SUM(D108:D117)",
+    "w": "97,466.00"
+  },
+  "A108": {
+    "t": "s",
+    "v": "kredyty i pożyczki",
+    "r": "<t xml:space=\"preserve\">kredyty i pożyczki</t>",
+    "h": "kredyty i pożyczki",
+    "w": "kredyty i pożyczki"
+  },
+  "A109": {
+    "t": "s",
+    "v": "z tytułu emisji dłużnych papierów wartościowych",
+    "r": "<t xml:space=\"preserve\">z tytułu emisji dłużnych papierów wartościowych</t>",
+    "h": "z tytułu emisji dłużnych papierów wartościowych",
+    "w": "z tytułu emisji dłużnych papierów wartościowych"
+  },
+  "A110": {
+    "t": "s",
+    "v": "inne zobowiązania finansowe",
+    "r": "<t xml:space=\"preserve\">inne zobowiązania finansowe</t>",
+    "h": "inne zobowiązania finansowe",
+    "w": "inne zobowiązania finansowe"
+  },
+  "A111": {
+    "t": "s",
+    "v": "z tytułu dostaw i usług, o okresie wymagalności do 12 msc",
+    "r": "<t xml:space=\"preserve\">z tytułu dostaw i usług, o okresie wymagalności do 12 msc</t>",
+    "h": "z tytułu dostaw i usług, o okresie wymagalności do 12 msc",
+    "w": "z tytułu dostaw i usług, o okresie wymagalności do 12 msc"
+  },
+  "B111": {
+    "t": "n",
+    "v": 68989,
+    "w": "68,989.00"
+  },
+  "C111": {
+    "t": "n",
+    "v": 68989,
+    "w": "68,989.00"
+  },
+  "D111": {
+    "t": "n",
+    "v": 68989,
+    "w": "68,989.00"
+  },
+  "A112": {
+    "t": "s",
+    "v": "z tytułu dostaw i usług, o okresie wymagalności pow. 12 msc",
+    "r": "<t xml:space=\"preserve\">z tytułu dostaw i usług, o okresie wymagalności pow. 12 msc</t>",
+    "h": "z tytułu dostaw i usług, o okresie wymagalności pow. 12 msc",
+    "w": "z tytułu dostaw i usług, o okresie wymagalności pow. 12 msc"
+  },
+  "A113": {
+    "t": "s",
+    "v": "zaliczki otrzymane na dostawy",
+    "r": "<t xml:space=\"preserve\">zaliczki otrzymane na dostawy</t>",
+    "h": "zaliczki otrzymane na dostawy",
+    "w": "zaliczki otrzymane na dostawy"
+  },
+  "A114": {
+    "t": "s",
+    "v": "zobowiązania wekslowe",
+    "r": "<t xml:space=\"preserve\">zobowiązania wekslowe</t>",
+    "h": "zobowiązania wekslowe",
+    "w": "zobowiązania wekslowe"
+  },
+  "A115": {
+    "t": "s",
+    "v": "z tytułu podatków, ceł, ubezpieczeń i innych świadczeń",
+    "r": "<t xml:space=\"preserve\">z tytułu podatków, ceł, ubezpieczeń i innych świadczeń</t>",
+    "h": "z tytułu podatków, ceł, ubezpieczeń i innych świadczeń",
+    "w": "z tytułu podatków, ceł, ubezpieczeń i innych świadczeń"
+  },
+  "B115": {
+    "t": "n",
+    "v": 20464,
+    "w": "20,464.00"
+  },
+  "C115": {
+    "t": "n",
+    "v": 20464,
+    "w": "20,464.00"
+  },
+  "D115": {
+    "t": "n",
+    "v": 20464,
+    "w": "20,464.00"
+  },
+  "A116": {
+    "t": "s",
+    "v": "z tytułu wynagrodzeń",
+    "r": "<t xml:space=\"preserve\">z tytułu wynagrodzeń</t>",
+    "h": "z tytułu wynagrodzeń",
+    "w": "z tytułu wynagrodzeń"
+  },
+  "B116": {
+    "t": "n",
+    "v": 5940,
+    "w": "5,940.00"
+  },
+  "C116": {
+    "t": "n",
+    "v": 5940,
+    "w": "5,940.00"
+  },
+  "D116": {
+    "t": "n",
+    "v": 5940,
+    "w": "5,940.00"
+  },
+  "A117": {
+    "t": "s",
+    "v": "inne",
+    "r": "<t xml:space=\"preserve\">inne</t>",
+    "h": "inne",
+    "w": "inne"
+  },
+  "B117": {
+    "t": "n",
+    "v": 2073,
+    "w": "2,073.00"
+  },
+  "C117": {
+    "t": "n",
+    "v": 2073,
+    "w": "2,073.00"
+  },
+  "D117": {
+    "t": "n",
+    "v": 2073,
+    "w": "2,073.00"
+  },
+  "A118": {
+    "t": "s",
+    "v": "Fundusze specjalne",
+    "r": "<t xml:space=\"preserve\">Fundusze specjalne</t>",
+    "h": "Fundusze specjalne",
+    "w": "Fundusze specjalne"
+  },
+  "A119": {
+    "t": "s",
+    "v": "IV. Rozliczenia międzyokresowe",
+    "r": "<t xml:space=\"preserve\">IV. Rozliczenia międzyokresowe</t>",
+    "h": "IV. Rozliczenia międzyokresowe",
+    "w": "IV. Rozliczenia międzyokresowe"
+  },
+  "B119": {
+    "t": "n",
+    "v": 10689,
+    "f": "SUM(B120:B122)",
+    "w": "10,689.00"
+  },
+  "C119": {
+    "t": "n",
+    "v": 10689,
+    "f": "SUM(C120:C122)",
+    "w": "10,689.00"
+  },
+  "D119": {
+    "t": "n",
+    "v": 10689,
+    "f": "SUM(D120:D122)",
+    "w": "10,689.00"
+  },
+  "A120": {
+    "t": "s",
+    "v": "Ujemna wartość firmy",
+    "r": "<t xml:space=\"preserve\">Ujemna wartość firmy</t>",
+    "h": "Ujemna wartość firmy",
+    "w": "Ujemna wartość firmy"
+  },
+  "B120": {
+    "t": "n",
+    "v": 10689,
+    "w": "10,689.00"
+  },
+  "C120": {
+    "t": "n",
+    "v": 10689,
+    "w": "10,689.00"
+  },
+  "D120": {
+    "t": "n",
+    "v": 10689,
+    "w": "10,689.00"
+  },
+  "A121": {
+    "t": "s",
+    "v": "Inne rozliczenia międzyokresowe długoterminowe",
+    "r": "<t xml:space=\"preserve\">Inne rozliczenia międzyokresowe długoterminowe</t>",
+    "h": "Inne rozliczenia międzyokresowe długoterminowe",
+    "w": "Inne rozliczenia międzyokresowe długoterminowe"
+  },
+  "A122": {
+    "t": "s",
+    "v": "Inne rozliczenia międzyokresowe krótkoterminowe",
+    "r": "<t xml:space=\"preserve\">Inne rozliczenia międzyokresowe krótkoterminowe</t>",
+    "h": "Inne rozliczenia międzyokresowe krótkoterminowe",
+    "w": "Inne rozliczenia międzyokresowe krótkoterminowe"
+  },
+  "A123": {
+    "t": "s",
+    "v": "Pasywa razem",
+    "r": "<t xml:space=\"preserve\">Pasywa razem</t>",
+    "h": "Pasywa razem",
+    "w": "Pasywa razem"
+  },
+  "B123": {
+    "t": "n",
+    "v": 554904,
+    "f": "B86+B76",
+    "w": "554,904.00"
+  },
+  "C123": {
+    "t": "n",
+    "v": 554904,
+    "f": "C86+C76",
+    "w": "554,904.00"
+  },
+  "D123": {
+    "t": "n",
+    "v": 554904,
+    "f": "D86+D76",
+    "w": "554,904.00"
+  },
+  "!margins": {
+    "left": 0.7875,
+    "right": 0.7875,
+    "top": 1.05277777777778,
+    "bottom": 1.05277777777778,
+    "header": 0.7875,
+    "footer": 0.7875
+  }
+}
