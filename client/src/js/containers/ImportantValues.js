@@ -1,38 +1,31 @@
 import React from 'react';
 import ValueBox from './ValueBox'
 
-const data = `{
-  "records": [
-  {
-    "value": "198376",
-    "label": "Revenue"
-  },
-  {
-    "value": "14213",
-    "label": "Net income"
-  },
-  {
-    "value": "53432",
-    "label": "Income from continuing operations"
-  },
-  {
-    "value": "5236",
-    "label": "Operating (non-GAAP) earnings*"
+class ImportantValues extends React.Component {
+  componentDidMount() {
+    this.props.fetchData('http://localhost:3000/api/excel')
   }
-  ]
-}`
-
-const torender = JSON.parse(data).records.map((val, idx)=> {
-  return <ValueBox key={idx} data={val} />
-})
-
-const ImportantValues = () => {
-  return (
-    <div className="main__important-values important-values">
-      {torender}
-      <a href="/values" className="important-values__others"> > other values</a>
-    </div>
-  )
+  render() {
+    if (this.props.hasErrored) {
+      return <p>Sorry! There was an error loading the items</p>;
+    }
+    if (this.props.isLoading) {
+      return <p>Loading…</p>;
+    }
+    console.log(this.props.items)
+    return (
+      <div className="main__important-values important-values">
+        {this.torender()}
+        <a href="/values" className="important-values__others"> > other values</a>
+      </div>
+  )}
+  torender(){
+    return this.props.items.map((val, idx)=> {
+      if(idx < 4) {
+        return <ValueBox key={idx} data={val}/>
+      }
+    })
+  }
 }
 
 export default ImportantValues;

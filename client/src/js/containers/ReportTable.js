@@ -3,9 +3,9 @@ import Managers from './Managers'
 
 
 // TODO: Dispath fetched data to redux or setup web-socket for google-sheets
-const getData = fetch("http://localhost:3000/api/excel")
-    .then(response => response.json())
-    .then(data => console.log(data));
+// const getData = fetch("http://localhost:3000/api/excel")
+//     .then(response => response.json())
+//     .then(data => console.log(data));
 //......................................
 // solution for development before redux
 

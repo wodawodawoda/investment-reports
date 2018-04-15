@@ -8,8 +8,8 @@ const ValueBox = (data) => {
         <span className="important-values__link">View chart</span>
       </a>
       <div className="important-values__box important-values__box--second">
-        <span className="important-values__value">$ {data.data.value}</span>
-        <span className="important-values__label">{data.data.label}</span>
+        <span className="important-values__value">$ {data.data[2014]}</span>
+        <span className="important-values__label">{data.data.Aktywa}</span>
       </div>
     </div>
   )
