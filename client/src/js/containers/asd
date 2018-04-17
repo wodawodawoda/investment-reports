@@ -72,10 +72,11 @@ const usersData = `{
   ]
 }`
 
-const ReportTable = ({props, parent, selected}) => {
-  if(props.items[0] === undefined)  props.items[0] = [] // Takie rozwiązanie nie za bardzo mi się podoba
+
+const ReportTable = ({props}) => {
   const toHeader = JSON.parse(usersData).managers.map((val, idx) => {
-    if(selected.includes(val.id)) { // Tutaj dostaję error items[0] not defined
+    if(props.items[0] === undefined)  props.items[0] = [] // Takie rozwiązanie nie za bardzo mi się podoba
+    if(["1","2","3","4"].includes(val.id)) { // Tutaj dostaję error items[0] not defined
       return (
         <th key={idx}>
           <Manager data={val} />
@@ -84,22 +85,34 @@ const ReportTable = ({props, parent, selected}) => {
     }
     return null
   })
+  const toRender = props.items.map((val, idx) => {
+    if(idx === 0) {
+      return (
+        <thead key={idx}>
+          <tr>
+            <th>{props.items[0][0]}</th>
+            {toHeader}
+          </tr>
+        </thead>
+      )
+    }
 
-  const toBody = props.items.map((val, idx) => {
-    if(idx === 0) return null
-    const indexes = selected.map((val) => {
+    const indexes = ["1","2","3","4"].map((val) => {
+      console.log(props.items)
       return props.items[0].indexOf(val)
     })
-
+    console.log(indexes)
     return (
-        <tr key={idx}>
-          <td className="report-table__label">{val[0]}</td>
+      <tbody key={idx}>
+        <tr>
+          <td>{val[0]}</td>
           {val.map((val, idx) => {
             if(indexes.includes(idx)) {
               return <td key={idx}>{val}</td>
             }
           })}
         </tr>
+      </tbody>
     )
   })
   if (props.hasErrored) {
@@ -110,15 +123,7 @@ const ReportTable = ({props, parent, selected}) => {
   }
   return (
     <table>
-      <thead>
-        <tr>
-          <th>{props.items[0][0]}</th>
-          {toHeader}
-        </tr>
-      </thead>
-      <tbody>
-        {toBody}
-      </tbody>
+        {toRender}
     </table>
   )
 }

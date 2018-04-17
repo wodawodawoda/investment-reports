@@ -1,7 +1,7 @@
 import React from 'react';
 import Manager from './Manager';
 
-
+// To database // redux initial state
 const data = `{
   "managers": [
   {

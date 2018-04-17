@@ -1,12 +1,12 @@
 import { combineReducers } from 'redux';
-// import {comments} from './commentReducer.js';
-// import users from './users.js';
+import { settings } from './settingsReducer';
 import {items, itemsHasErrored, itemsIsLoading} from './importantValuesReducer.js';
 
 const reducer = combineReducers({
   items,
   itemsHasErrored,
-  itemsIsLoading
+  itemsIsLoading,
+  settings
 });
 
 export default reducer
