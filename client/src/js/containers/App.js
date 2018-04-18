@@ -7,6 +7,7 @@ import ReportsContainer from './ReportsContainer';
 import SettingsContainer from './SettingsContainer';
 import Sidebar from './Sidebar';
 import Topbar from './Topbar';
+import ProfileContainer from './ProfileContainer';
 // import DevTools from '../redux/DevTools'
 
 class App extends React.Component {
@@ -15,9 +16,10 @@ class App extends React.Component {
       <div className="app">
         <Sidebar />
         <Topbar/>
-        <Dashboard />
+        {/*<Dashboard />*/}
         {/*<ReportsContainer />*/}
         {/*<SettingsContainer />*/}
+        <ProfileContainer />
         {/*<DevTools/>*/}
       </div>
     )

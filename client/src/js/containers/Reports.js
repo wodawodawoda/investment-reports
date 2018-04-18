@@ -1,6 +1,73 @@
 import React from 'react';
 import Managers from './Managers';
 import ReportTable from './ReportTable'
+const users = `{
+  "managers": [
+  {
+    "id": "1",
+    "name": "John Doe",
+    "image": "/images/user1.jpg",
+    "branch": "Chicago - Illinois",
+    "status": "finished"
+  },
+  {
+    "id": "2",
+    "name": "Long-Surname-Man",
+    "image": "/images/user2.jpg",
+    "branch": "New York",
+    "status": "finished"
+  },
+  {
+    "id": "3",
+    "name": "John Doe",
+    "image": "/images/user3.jpg",
+    "branch": "Chicago - Illinois",
+    "status": "finished"
+  },
+  {
+    "id": "4",
+    "name": "John Doe",
+    "image": "/images/user4.jpg",
+    "branch": "New York",
+    "status": "finished"
+  },
+  {
+    "id": "5",
+    "name": "Long-Surname-Man",
+    "image": "/images/user5.jpg",
+    "branch": "New York",
+    "status": "finished"
+  },
+  {
+    "id": "6",
+    "name": "John Doe",
+    "image": "/images/user4.jpg",
+    "branch": "New York",
+    "status": "finished"
+  },
+  {
+    "id": "7",
+    "name": "John Doe",
+    "image": "/images/user4.jpg",
+    "branch": "New York",
+    "status": "finished"
+  },
+  {
+    "id": "8",
+    "name": "John Doe",
+    "image": "/images/user4.jpg",
+    "branch": "New York",
+    "status": "finished"
+  },
+  {
+    "id": "9",
+    "name": "John Doe",
+    "image": "/images/user4.jpg",
+    "branch": "New York",
+    "status": "finished"
+  }
+  ]
+}`
 
 
 
@@ -12,8 +79,8 @@ class Reports extends React.Component {
     }
   }
   componentDidMount() {
-    console.log(this.props.link)
-    this.props.fetchData(this.props.link)
+    this.props.fetchData(this.props.link);
+    this.props.fetchUsers("http://localhost:3000/api/users")
   }
   // render() {
   //   if (this.props.hasErrored) {
@@ -39,10 +106,11 @@ class Reports extends React.Component {
     })
   }
   render() {
+    console.log(this.props)
     return (
       <div className="reports">
         <Managers parent="reports" number={7} />
-        <ReportTable parent="reports" selected={this.state.selected} props={this.props}/>
+        <ReportTable parent="reports" selected={this.state.selected} data={this.props.items} users={this.props.users}/>
         {/*TODO change select to checkboxes in Managers component*/}
         <select multiple onChange={e => this.handleSelect(e)}>
           <option value="1">1</option>

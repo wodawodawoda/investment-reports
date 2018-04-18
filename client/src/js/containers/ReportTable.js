@@ -4,77 +4,11 @@ import Manager from './Manager'
 
 // TODO: \\Dispath fetched data to redux or\\ setup web-socket for google-sheets
 
-const usersData = `{
-  "managers": [
-  {
-    "id": "1",
-    "name": "John Doe",
-    "image": "/images/user1.jpg",
-    "branch": "Chicago - Illinois",
-    "status": "finished"
-  },
-  {
-    "id": "2",
-    "name": "Long-Surname-Man",
-    "image": "/images/user2.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "3",
-    "name": "John Doe",
-    "image": "/images/user3.jpg",
-    "branch": "Chicago - Illinois",
-    "status": "finished"
-  },
-  {
-    "id": "4",
-    "name": "John Doe",
-    "image": "/images/user4.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "5",
-    "name": "Long-Surname-Man",
-    "image": "/images/user5.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "6",
-    "name": "John Doe",
-    "image": "/images/user4.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "7",
-    "name": "John Doe",
-    "image": "/images/user4.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "8",
-    "name": "John Doe",
-    "image": "/images/user4.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "9",
-    "name": "John Doe",
-    "image": "/images/user4.jpg",
-    "branch": "New York",
-    "status": "finished"
-  }
-  ]
-}`
 
-const ReportTable = ({props, parent, selected}) => {
-  if(props.items[0] === undefined)  props.items[0] = [] // Takie rozwiązanie nie za bardzo mi się podoba
-  const toHeader = JSON.parse(usersData).managers.map((val, idx) => {
+const ReportTable = ({data, parent, selected, users}) => {
+  console.log(users)
+  if(data[0] === undefined)  data[0] = [] // Takie rozwiązanie nie za bardzo mi się podoba
+  const toHeader = users.map((val, idx) => {
     if(selected.includes(val.id)) { // Tutaj dostaję error items[0] not defined
       return (
         <th key={idx}>
@@ -85,10 +19,10 @@ const ReportTable = ({props, parent, selected}) => {
     return null
   })
 
-  const toBody = props.items.map((val, idx) => {
+  const toBody = data.map((val, idx) => {
     if(idx === 0) return null
     const indexes = selected.map((val) => {
-      return props.items[0].indexOf(val)
+      return data[0].indexOf(val)
     })
 
     return (
@@ -102,17 +36,17 @@ const ReportTable = ({props, parent, selected}) => {
         </tr>
     )
   })
-  if (props.hasErrored) {
-    return <p>Sorry! There was an error loading the items</p>;
-  }
-  if (props.isLoading) {
-    return <p>Loading…</p>;
-  }
+  // if (data.hasErrored) {
+  //   return <p>Sorry! There was an error loading the items</p>;
+  // }
+  // if (data.isLoading) {
+  //   return <p>Loading…</p>;
+  // }
   return (
     <table>
       <thead>
         <tr>
-          <th>{props.items[0][0]}</th>
+          <th>{data[0][0]}</th>
           {toHeader}
         </tr>
       </thead>

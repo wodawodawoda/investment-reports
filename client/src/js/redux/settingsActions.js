@@ -6,5 +6,3 @@ export function changeBase (text = 'http://localhost:3000/api/year/2011') {
     text
   }
 }
-
-

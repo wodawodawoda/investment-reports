@@ -20,6 +20,7 @@ class ImportantValues extends React.Component {
       </div>
   )}
   torender(){
+    console.log(this.props)
     return this.props.items.map((val, idx)=> {
       if(idx < 4) {
         return <ValueBox key={idx} data={val}/>

@@ -52,5 +52,12 @@ app.get('/api/range/:years', (req, res) => {
   res.json(toSend);
 });
 
+app.get('/api/users', (req, res) => {
+    console.log('elo')
+  var obj = JSON.parse(fs.readFileSync('public/users.json', 'utf8'));
+    res.json(obj)
+});
+
+
 
 server.listen(port)
