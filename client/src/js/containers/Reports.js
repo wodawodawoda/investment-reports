@@ -1,81 +1,12 @@
 import React from 'react';
 import Managers from './Managers';
 import ReportTable from './ReportTable'
-const users = `{
-  "managers": [
-  {
-    "id": "1",
-    "name": "John Doe",
-    "image": "/images/user1.jpg",
-    "branch": "Chicago - Illinois",
-    "status": "finished"
-  },
-  {
-    "id": "2",
-    "name": "Long-Surname-Man",
-    "image": "/images/user2.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "3",
-    "name": "John Doe",
-    "image": "/images/user3.jpg",
-    "branch": "Chicago - Illinois",
-    "status": "finished"
-  },
-  {
-    "id": "4",
-    "name": "John Doe",
-    "image": "/images/user4.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "5",
-    "name": "Long-Surname-Man",
-    "image": "/images/user5.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "6",
-    "name": "John Doe",
-    "image": "/images/user4.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "7",
-    "name": "John Doe",
-    "image": "/images/user4.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "8",
-    "name": "John Doe",
-    "image": "/images/user4.jpg",
-    "branch": "New York",
-    "status": "finished"
-  },
-  {
-    "id": "9",
-    "name": "John Doe",
-    "image": "/images/user4.jpg",
-    "branch": "New York",
-    "status": "finished"
-  }
-  ]
-}`
-
-
 
 class Reports extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
-      selected: ["1"]
+      selected: []
     }
   }
   componentDidMount() {
@@ -105,12 +36,28 @@ class Reports extends React.Component {
       selected
     })
   }
+  handleBtn = e => {
+    const id = e.target.offsetParent.dataset.id;
+    if(this.state.selected.includes(id)) {
+      e.target.classList.remove("selected")
+      this.setState({
+        selected: this.state.selected.filter((val) => val !== id)
+      })
+    } else {
+      e.target.classList.add("selected")
+      this.setState({
+        selected: [...this.state.selected, id]
+      })
+    }
+  }
   render() {
-    console.log(this.props)
     return (
       <div className="reports">
-        <Managers parent="reports" number={7} />
-        <ReportTable parent="reports" selected={this.state.selected} data={this.props.items} users={this.props.users}/>
+        <Managers parent="reports" number={7} handleBtn={this.handleBtn}/>
+        <ReportTable parent="reports"
+                     selected={this.state.selected}
+                     data={this.props.items}
+                     users={this.props.users}/>
         {/*TODO change select to checkboxes in Managers component*/}
         <select multiple onChange={e => this.handleSelect(e)}>
           <option value="1">1</option>

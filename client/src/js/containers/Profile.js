@@ -15,7 +15,7 @@ class Profile extends React.Component {
   }
   managers() {
     return this.props.users.map((val, idx) => {
-      if(window.location.pathname === `/${val.id}`) { // Return proper manager component
+      if(this.props.match.params.id === val.id) { // Return proper manager component
         return (
           <div className="profile">
             <Manager data={val} parent="profile" />
@@ -29,7 +29,7 @@ class Profile extends React.Component {
     })
   }
   render() {
-    console.log(this.props.users)
+    console.log(this.props.match.params.id)
     // TODO after changing settings Redux gets update but Reporst table returns error on fetch after updating link
     return this.managers()
   }

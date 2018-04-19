@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000/",
+  "homepage" : "http://wodawodawoda.github.io/investments-reports",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -37,6 +38,8 @@
     "react-dev-utils": "^5.0.1",
     "react-dom": "^16.3.1",
     "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
     "resolve": "1.6.0",
@@ -97,6 +100,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "node-sass": "^4.8.3",
     "react-hot-loader": "^4.0.1",
     "redux-devtools": "^3.4.1",

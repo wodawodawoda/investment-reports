@@ -9,19 +9,32 @@ import Sidebar from './Sidebar';
 import Topbar from './Topbar';
 import ProfileContainer from './ProfileContainer';
 // import DevTools from '../redux/DevTools'
+import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom'
+import NotExist from './NotExist'
+import DashboardSummary from './DashboardSummary'
 
 class App extends React.Component {
   render() {
     return (
-      <div className="app">
-        <Sidebar />
-        <Topbar/>
-        {/*<Dashboard />*/}
-        {/*<ReportsContainer />*/}
-        {/*<SettingsContainer />*/}
-        <ProfileContainer />
-        {/*<DevTools/>*/}
-      </div>
+      <Router>
+        <div className="app">
+          {/*<Route path="/" component={Sidebar}/>*/}
+          {/*<Route path="/" component={Topbar}/>*/}
+          <Sidebar />
+          <Topbar/>
+          <Switch>
+            <Route path="/dashboard" component={Dashboard}/>
+            {/*<Route exact path="/dashboard/main" component={Dashboard}/>*/}
+            {/*<Route exact path="/dashboard/summary" component={DashboardSummary}/>*/}
+            {/*<Route exact path="/dashboard/archiv" component={DashboardSummary}/>*/}
+            <Route exact path="/reports" component={ReportsContainer}/>
+            <Route exact path="/settings" component={SettingsContainer}/>
+            <Route exact path="/profile/:id" component={ProfileContainer}/>
+            {/*<DevTools/>*/}
+            <Route path="*" component={NotExist}/>
+          </Switch>
+        </div>
+      </Router>
     )
   }
 }

@@ -5,9 +5,7 @@ import Manager from './Manager'
 // TODO: \\Dispath fetched data to redux or\\ setup web-socket for google-sheets
 
 
-const ReportTable = ({data, parent, selected, users}) => {
-  console.log(users)
-  if(data[0] === undefined)  data[0] = [] // Takie rozwiązanie nie za bardzo mi się podoba
+const ReportTable = ({data= [[1,2,3]], parent, selected, users}) => {
   const toHeader = users.map((val, idx) => {
     if(selected.includes(val.id)) { // Tutaj dostaję error items[0] not defined
       return (
@@ -19,12 +17,11 @@ const ReportTable = ({data, parent, selected, users}) => {
     return null
   })
 
-  const toBody = data.map((val, idx) => {
+  const toBody = data.map((val, idx, arr) => {
     if(idx === 0) return null
     const indexes = selected.map((val) => {
-      return data[0].indexOf(val)
+      return arr[0].indexOf(val)
     })
-
     return (
         <tr key={idx}>
           <td className="report-table__label">{val[0]}</td>
@@ -36,25 +33,23 @@ const ReportTable = ({data, parent, selected, users}) => {
         </tr>
     )
   })
-  // if (data.hasErrored) {
-  //   return <p>Sorry! There was an error loading the items</p>;
-  // }
-  // if (data.isLoading) {
-  //   return <p>Loading…</p>;
-  // }
-  return (
-    <table>
-      <thead>
-        <tr>
-          <th>{data[0][0]}</th>
-          {toHeader}
-        </tr>
-      </thead>
-      <tbody>
-        {toBody}
-      </tbody>
-    </table>
-  )
+  if(data == 0)  {
+    return null
+  } else {
+    return (
+      <table>
+        <thead>
+          <tr style={{height: '200px'}}>
+            <th>{data[0][0]}</th>
+            {toHeader}
+          </tr>
+        </thead>
+        <tbody>
+          {toBody}
+        </tbody>
+      </table>
+    )
+  }
 }
 
 export default ReportTable;

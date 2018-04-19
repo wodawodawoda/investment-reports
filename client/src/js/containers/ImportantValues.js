@@ -6,13 +6,13 @@ class ImportantValues extends React.Component {
     this.props.fetchData('http://localhost:3000/api/excel')
   }
   render() {
-    if (this.props.hasErrored) {
-      return <p>Sorry! There was an error loading the items</p>;
-    }
-    if (this.props.isLoading) {
-      return <p>Loading…</p>;
-    }
-    console.log(this.props.items)
+    // if (this.props.hasErrored) {
+    //   return <p>Sorry! There was an error loading the items</p>;
+    // }
+    // if (this.props.isLoading) {
+    //   return <p>Loading…</p>;
+    // }
+    // console.log(this.props.items)
     return (
       <div className="main__important-values important-values">
         {this.torender()}

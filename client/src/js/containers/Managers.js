@@ -74,7 +74,7 @@ const data = `{
 
 class Managers extends React.Component {
   torender = () => JSON.parse(data).managers.map((val, idx)=> {
-    return idx < this.props.number ? <Manager key={idx} data={val} parent="managers" /> : null
+    return idx < this.props.number ? <Manager key={idx} data={val} parent="managers" handleBtn={this.props.handleBtn} /> : null
   })
 
   render() {

@@ -1,20 +1,20 @@
 import React from 'react';
-
+import {NavLink} from 'react-router-dom'
 const DashboardNav = () => {
   return (
     <nav className="dashboard__navigation nav-dash">
-      <div className="nav-dash__path">
+      <NavLink to="/dashboard/main" className="nav-dash__path" activeClassName="nav-dash__path--active">
         <img className="nav-dash__icon" src="/images/icons/main.png" alt="home"/>
-        <a href="/dashboard/main" className="nav-dash__link">Main</a>
-      </div>
-      <div className="nav-dash__path">
+        <p className="nav-dash__link">Main</p>
+      </NavLink>
+      <NavLink to="/dashboard/summary" className="nav-dash__path" activeClassName="nav-dash__path--active">
         <img className="nav-dash__icon" src="/images/icons/summary.png" alt="summary"/>
-        <a href="/dashboard/summary" className="nav-dash__link">Summary Report</a>
-      </div>
-      <div className="nav-dash__path">
+        <p className="nav-dash__link">Summary Report</p>
+      </NavLink>
+      <NavLink to="/dashboard/archiv" className="nav-dash__path" activeClassName="nav-dash__path--active">
         <img className="nav-dash__icon" src="/images/icons/archiv.png" alt="archiv"/>
-        <a href="/dashboard/archiv" className="nav-dash__link">Archiv</a>
-      </div>
+        <p className="nav-dash__link">Archiv</p>
+      </NavLink>
     </nav>
   )
 }
